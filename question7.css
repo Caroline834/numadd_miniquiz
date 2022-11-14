@@ -1,0 +1,55 @@
+.title {
+  text-align: center;
+  color: brown;
+}
+
+.btnstart {
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  width: 100px;
+  border-radius: 5px;
+}
+.btnstop {
+  float: right;
+  background-color: grey;
+  color: white;
+  font-size: 20px;
+  width: 100px;
+  border-radius: 5px;
+}
+.question, .arrow {
+  color: red;
+}
+.answer {
+  color: red;
+}
+#Quest {
+  width: 200px;
+  margin-left: 50px;
+  margin-top: 30px;
+  height: 50px;
+}
+#Ans {
+  width: 200px;
+  margin-left: 50px;
+  margin-top: 30px;
+  height: 50px;
+  display: inline;
+}
+.btnok {
+  float: right;
+  margin-top: 50px;
+  width: 200px;
+  background-color: blueviolet;
+  color: white;
+}
+.activestop {
+    background-color: red;
+}
+.inactivestart {
+    background-color: grey;
+}
+.inactivestop {
+    background-color:grey;
+}

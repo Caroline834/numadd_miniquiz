@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator Brain</title>
+        <link rel="stylesheet" href="question7.css">
+        <script src="question7.js"></script>
+    </head>
+    <body>
+        <h1 class="title">Calculator Brain</h1>
+        <div>
+            <button id="btnstart" class="btnstart activestart" onclick="start()">Start</button>
+            <button id="btnstop" class="btnstop inactivestop" onclick="stop()" disabled>Stop</button>
+        </div>
+        
+        <fieldset id="Quest">
+            <legend class="question">Question</legend>
+            <span id="quiz"></span>
+            <span class="arrow">=></span>
+        </fieldset>
+
+        <fieldset id="Ans">
+            <legend class="answer">Answer</legend>
+            <input type="text" id="answerbox" disabled>
+        </fieldset>
+        <span>
+            <button class="btnok" id="useranswer" onclick="checkanswer()" disabled>OK</button>
+        </span>
+
+        <h1>History</h1>
+        <ol id="list"></ol>
+    </body>
+</html>
